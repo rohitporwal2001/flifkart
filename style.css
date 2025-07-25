@@ -1,0 +1,536 @@
+html{
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+/* html{
+  overflow-x: hidden;
+} */
+body {
+  background-color: #f1f2f4;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  background-color: rgb(238, 238, 243);
+  color: black;
+  position: sticky;
+  top: 0px;
+}
+.nav div img {
+  height: 40px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #f0f5ff;
+  border-radius: 4px;
+  padding: 0 10px;
+  width: 50%;
+}
+
+.search i {
+  color: #717478;
+  margin-right: 10px;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 18px;
+}
+.nav div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav div a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.nav div i {
+  font-size: 18px;
+  color: black;
+}
+.threedot {
+  position: relative;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+.threedot:hover {
+  background-color: #f7f4f4;
+  border: 1px solid grey;
+}
+.nav .login {
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav .login:hover {
+  background-color: #2874f0; 
+}
+
+.nav .login:hover a,
+.nav .login:hover i {
+  color: white;
+}
+
+
+/* nav second */
+.nav2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 98%;
+  
+}
+
+.nav2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  transition: transform 0.3s ease;
+}
+
+.nav2 div:hover {
+  transform: scale(1.05);
+}
+
+.nav2 div img {
+  width: 64px;
+  height: 64px;
+  
+}
+
+.nav2 div p {
+  font-size: 12px;
+  color: #212121;
+  margin-top: 6px;
+  font-weight: 600;
+}
+/* second navbar complete */
+.slide{
+    
+    height: 34vh;
+justify-items: center;
+  text-align: center;
+  
+   
+}
+.slide img{
+    width: 98%;
+    padding-top: 5px;
+
+}
+/* SLIDE END  */
+/* mobile section */
+.mobile {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    text-align: flex-start;
+    justify-content: center;
+    gap: 10px;
+    
+
+    
+}
+.mobile .mob h4{
+  margin-left: -750px;
+}
+
+.mobile .mob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-top: 15px;
+    padding-bottom: -20px;
+  }
+
+.mobile .mob h4 {
+    font-size: 30px;
+    padding: 8px;
+    
+}
+
+.mob2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.mob2  img {
+    height: 150px;
+    padding: 10px;
+    margin: 34px;
+    
+}
+
+.img2 img {
+    width: 430px;
+    height: 56vh;
+    margin-left: 2px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    
+    
+}
+.mobile .mob div a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.mob a .p2{
+  font-weight: 700;
+}
+
+
+/* mobile section end  */
+/* home amd furniture top deals */
+.home .home1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ justify-items: center;
+ padding: 10px;
+}
+.home{
+  background-color: white;
+  margin-top: 20px;
+  height: 43vh;
+  width: 98%;
+  margin-left: 14px;
+  
+}
+.home .head  h4{
+  font-size: 30px;
+  padding: 5px;
+  margin: 13px;
+  margin-left: 20px;
+}
+.home .home1 img{
+  width: 140px;
+  height: 160px;
+  transition: transform 0.3s ease-in-out;
+   box-shadow: 5px 5px 7px gray;
+   border-radius: 10px;
+}
+.home .home1 img:hover{
+   transform: scale(1.08);
+}
+.home .home1 a p{
+  color: black;
+}
+.home .home1 a{
+  text-decoration: none;
+  text-align: center;
+}
+.home .home1 .pa2{
+  font-weight: 700;
+  font-size: 16px;
+}
+/* home amd furniture top end */
+/* big div */
+.bigdiv div img{
+  width: 575px;
+  margin: 5px;
+}
+.bigdiv{
+  /* display: flex;
+  padding: 10px 10px 0px 10px;
+  margin-right: 20px;
+  justify-content: center;
+} */
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+
+}
+
+/* big div */
+/* big div2 */
+.bigdiv2{
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  
+}
+
+.bigdiv2 div img{
+  width: 575px;
+  margin: 5px;
+}
+.bigdiv3{
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.bigdiv3 div img{
+  width: 575px;
+  margin: 5px;
+}
+
+/* footer */
+.footer {
+  background-color: #212121;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-box {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-box h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #878787;
+}
+
+.footer-box a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.footer-box a i {
+  margin-right: 8px;
+  color: #ffd700;
+}
+
+.footer-box a:hover {
+  text-decoration: underline;
+  transform: translateX(5px);
+}
+
+.footer-box.address p {
+  font-size: 13px;
+  color: #ccc;
+  margin: 3px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #999;
+}
+
+.payment-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.payment-icons i {
+  font-size: 28px;
+  margin: 0 10px;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.payment-icons i:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+
+/* footer */
+
+/* masoon Ready style */
+.man{
+  
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  margin-top: 10px;
+
+}
+.man .man1{
+  background-color: white;
+  height: 100vh;
+  width: 60%;
+}
+.man .man1 .man2{
+ 
+  display: flex;
+  justify-content: center;
+}
+.man .man1 .man3{
+ 
+  display: flex;
+  justify-content: center;
+}
+.man .mana img{
+  
+  width: 500px;
+  height: 100vh;
+ 
+}
+.man .man1 .man2 .im img{
+  padding: 8px;
+  width: 200px;
+  height: 250px;
+  margin: 22px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+
+}
+.man .man1 .man2 .im img:hover{
+   transform: scale(1.08);
+}
+.man .man1 .man3 .im img{
+  transition: transform 0.3s ease-in-out;
+  width: 200px;
+  height: 240px;
+  margin: 22px;
+  padding: 8px;
+  box-shadow: 5px 5px 10px gray;
+   border-radius: 10px;
+
+}
+.man .man1 .man3 .im img:hover{
+  transform: scale(1.08);
+}
+.man .man1 h4{
+  font-size: 30px;
+  padding: 10px;
+}
+.man .man1 .man2 .im  p{
+  text-align: center; 
+  color: black;
+}
+.man .man1 .man3 .im  p{
+  text-align: center;
+  color: black;
+}
+.man .man1 .man2 .im  a {
+  text-decoration: none;
+  
+}
+.man .man1 .man3 .im  a {
+  text-decoration: none;
+}
+.man .man1 .man3 .im  .p1{
+
+  color: green;
+   font-weight: 600;
+}
+.man .man1 .man2 .im  .p1{
+  
+  color: green;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+/* login vala drop down  */
+.drop{
+  background-color: white;
+  width: 220px;
+  height: 260px;
+  border-radius: 10px;
+  margin-top: -60px;
+  margin-left: 1000px;
+  box-shadow: 0px 0px 2px 2px gray;
+  position: absolute;
+  position: fixed;
+}
+.drop .drop1 a{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.drop div a{
+  text-decoration: none;
+  color: black;
+}
+.drop div{
+  padding: 10px;
+}
+.drop .drop1 a span p{
+  color: blue;
+}
+#output{
+  position: absolute;
+  z-index: 1;
+  margin-top: 50px;
+}
+
+
+/* end login vala dropdown */
+/* login ke bad vala dropdown */
+.drop-dowm{
+  background-color: white;
+  width: 230px;
+  margin-left: 1270px;
+  height: 170px;
+  justify-content: center;  
+  box-shadow: 0px 0px 3px 3px gray;
+  border-radius: 10px;
+  position: absolute;
+   z-index: 5;
+    top: 100%;
+}
+.drop-dowm div a{
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  color: black;
+  padding: 10px;
+}
+#ot{
+  position: absolute;
+  margin-top: 50px;
+}
